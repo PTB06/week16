@@ -5,8 +5,8 @@ using namespace std;
 int maTranKe[MAX][MAX];
 int sodinh = 11;
 void createMaTran() {
-    for (int i = 1; i <= soDinh; i++)
-        for (int j = 1; j <= soDinh; j++)
+    for (int i = 1; i <= sodinh; i++)
+        for (int j = 1; j <= sodinh; j++)
             maTranKe[i][j] = 0;
 }
 void themCanh(int u, int v) {
@@ -28,4 +28,5 @@ int main() {
     themCanh(6,4); themCanh(4,3); themCanh(2,3);
     inMaTranKe();
     return 0;
+
 }
